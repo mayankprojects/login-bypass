@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP login page</title>
+    <style>
+        body {
+            background-color: grey;
+        }
+
+        .box {
+            width: 400px;
+            margin: 200px auto;
+            padding: 22px;
+            border: 2px solid black;
+            border-radius: 22px;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>LOGIN PAGE</h1>
+        <form action="auth.php" method="post">
+            <div>
+                <label for="user">Username</label>
+                <input type="text" name="user" id="user">
+            </div>
+            <br>
+            <div>
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="LOGIN" id="btn">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
